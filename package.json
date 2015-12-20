@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/vikramiyer/sanscript.js/issues"
   },
-  "homepage": "https://github.com/vikramiyer/sanscript.js#readme"
+  "homepage": "https://github.com/vikramiyer/sanscript.js#readme",
+  "dependencies":{
+    "express": "^3.3.12"
+  }
 }

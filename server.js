@@ -55,8 +55,6 @@ app.get("/sutras",function(req,res){
         password: "root",
         database: "ss"
     });
-    console.log(req.query.characters.charAt(0));
-    console.log(req.query.characters.slice(1));
     con.connect(function(err){
         if(err){
             console.log("Error connecting",err);

@@ -1,9 +1,13 @@
+body {
+    font-family: "Lato","Helvetica Neue","Arial Narrow";
+}
 
 .transliterate-select {
     float: left;
 }
 .btn-group.bootstrap-select {
-    left: 10px;
+    width: 112px;
+    left: 5px;
     top: 25px;
 }
 
@@ -117,7 +121,8 @@ ul {
     display: none;
 }
 .bs-docs-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a {
-    color: #563d7c;
+    /*color: #563d7c;*/
+    color: #C23D27;
     font-weight: 500;
 }
 .bs-docs-nav .navbar-nav > li > a:hover, .bs-docs-nav .navbar-nav > .active > a, .bs-docs-nav .navbar-nav > .active > a:hover {
@@ -185,14 +190,15 @@ ul {
     overflow: hidden;
 }
 .bs-docs-masthead, .bs-docs-header {
-    background-color: #6f5499;
-    background-image: linear-gradient(to bottom, #563d7c 0px, #6f5499 100%);
     background-repeat: repeat-x;
-    color: #cdbfe3;
     padding: 30px 15px;
     position: relative;
     text-align: center;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    background-color: rgb(204, 0, 0);
+    background-image: linear-gradient(to bottom, rgb(187, 102, 0) 0px, rgb(204, 0, 0) 100%);
+    color: #e3c198;
+
 }
 .bs-docs-masthead .bs-docs-booticon {
     margin: 0 auto 30px;
@@ -242,6 +248,7 @@ ul {
 .bs-docs-header {
     font-size: 20px;
     margin-bottom: 40px;
+    color:white;
 }
 .bs-docs-header h1 {
     color: #fff;

@@ -89,7 +89,7 @@ function showCharacters(){
 function showSutras(){
 	$(".bs-example").show();
 	$("#response").hide();
-	var str = document.getElementById("txtInput").value;
+	var str = document.getElementById("txtInput2").value;
 	if(str.length === 0){
 		document.getElementById("response").innerHTML = "";
 		return;

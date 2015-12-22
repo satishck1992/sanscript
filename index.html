@@ -19,14 +19,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="../" class="navbar-brand">Sanskrit Scholar</a>
+            <a href="../" class="navbar-brand">SANSKRIT SCHOLAR</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" >Expo</a></li>
-                <li><a href="#" >Blog</a></li>
+                <!--<li><a href="#" >Expo</a></li>-->
+                <!--<li><a href="#" >Blog</a></li>-->
             </ul>
         </nav>
     </div>
@@ -36,7 +36,6 @@
         <h1>Learn Grammar
         </h1>
         <span>The most elaborate and exhaustive way to learn grammar the <span class="dev">पाणिनि</span> way</span>
-
     </div>
 </div>
 <div class="col-md-9" role="main">
@@ -46,23 +45,30 @@
             class="ith dev red"><b>प्रत्यहार</b></span>
     </div>
     <div class="bs-docs-section">
-        <div class="input-group" style="float:left">
-            <div>
+        <div class="input-group" style="float:left;max-width: 100px;">
+
                 <label for="usr">Pratyahara</label>
                 <input type="text" class="form-control" id="txtInput">
-            </div>
-        </div>
-        <div class="btn-group" role="group" aria-label="...">
-            <button type="button" class="btn btn-default" id="sCharacters" style="top: 25px; left: 15px;">Get Characters</button>
-            <!--<button type="button" class="btn btn-default" id="sPratyaharas" style="top: 25px; left: 21px;">Get Pratyaharas</button>-->
-            <button type="button" class="btn btn-default" id="sSutras" style="top: 25px; left: 21px;">Get Sutras</button>
+
         </div>
         <div class="transliterate-select">
-            <select id="transliterate" class="selectpicker" data-width="auto">
-                <option value="hk" selected>HK</option>
-                <option value="iast">IAST</option>
-                <option value="devanagari">Devanagari</option>
-            </select>
+                <select id="transliterate" class="selectpicker" data-width="auto">
+                    <option value="hk" selected>HK</option>
+                    <option value="iast">IAST</option>
+                    <option value="devanagari">Devanagari</option>
+                </select>
+        </div>
+        <div class="input-group" style="top:25px;left:10px;">
+            <button type="button" class="btn btn-default" id="sCharacters">Get Characters</button>
+        </div>
+            <!--<button type="button" class="btn btn-default" id="sPratyaharas" style="top: 25px; left: 21px;">Get Pratyaharas</button>-->
+        <div class="input-group" style="float:left;left:250px;top:-35px;max-width: 220px;">
+                <label for="usr">Sutras (Adhyaya Range Eg:1-2)</label>
+                <input type="text" class="form-control" id="txtInput2">
+        </div>
+        <div class="input-group" style="position: relative;left: 255px;top: -10px;">
+            <button type="button" class="btn btn-default" id="sSutras">Get Sutras</button>
+            <!--<button type="button" class="btn btn-default" id="sPratyaharas" style="top: 25px; left: 21px;">Get Pratyaharas</button>-->
         </div>
     </div>
     <div>

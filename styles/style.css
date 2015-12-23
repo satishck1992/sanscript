@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato","Helvetica Neue","Arial Narrow";
+    font-family: "Lato-Regular","Helvetica Neue","Arial Narrow";
 }
 
 .transliterate-select {
@@ -17,8 +17,11 @@ thead {
 }
 
 tbody td:first-child {
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 1.4em;
+}
+
+tbody td:nth-child(2) {
+    font-size: 1.4em;
 }
 
 td {

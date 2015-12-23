@@ -16,6 +16,7 @@ var routes = {
 app.use("/styles", express.static(__dirname + '/styles'));
 app.use("/js", express.static(__dirname + '/js'));
 app.use("/img", express.static(__dirname + '/img'));
+app.use("/fonts", express.static(__dirname + '/fonts'));
 
 function query(db,routes,params,callback){
 

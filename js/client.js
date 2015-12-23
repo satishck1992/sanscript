@@ -116,7 +116,7 @@ function showSutras(){
 						if(response[i]['sutra_id'] !== undefined) {
 							var row = body.insertRow();
 							var cell1 = row.insertCell(0);
-							cell1.innerHTML = response[i]['sutra_id'];
+							cell1.innerHTML = Sanscript.t(response[i]['sutra_id'],'hk','devanagari');
 							var cell2 = row.insertCell(1);
 							cell2.innerHTML = response[i]['sutra_text'];
 						}
